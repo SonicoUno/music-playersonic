@@ -17,17 +17,17 @@ const musicData = [
     musicPath: "./assets/music/Bandang Lapis performs “Nang Dumating Ka”.mp3",
   },
   {
-  backgroundImage: "./assets/images/poster-6.jpg",
-  posterUrl: "./assets/images/poster-6.jpg",
-  title: "Let Down",
-  album: "OK Computer",
-  year: 1997,
-  artist: "Radiohead",
-  musicPath: "./assets/music/Let Down - Radiohead.mp3",
-},
-  {
     backgroundImage: "./assets/images/poster-2.jpg",
     posterUrl: "./assets/images/poster-2.jpg",
+    title: "Let Down",
+    album: "OK Computer",
+    year: 1997,
+    artist: "Radiohead",
+    musicPath: "./assets/music/Let Down - Radiohead.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/poster-3.jpg",
+    posterUrl: "./assets/images/poster-3.jpg",
     title: "Stigmatized",
     album: "The Calling",
     year: 2001,
@@ -37,23 +37,22 @@ const musicData = [
   {
     backgroundImage: "./assets/images/poster-4.jpg",
     posterUrl: "./assets/images/poster-4.jpg",
+    title: "Number One (Slowed + Reverb)",
+    album: "Single",
+    year: 2024,
+    artist: "Tendo ft. Vito",
+    musicPath: "./assets/music/Tendo - Number One (slowed + reverb) ft. Vito (Lyrics).mp3",
+  },
+  {
+    backgroundImage: "./assets/images/poster-5.jpg",
+    posterUrl: "./assets/images/poster-5.jpg",
     title: "About You",
     album: "Being Funny in a Foreign Language",
     year: 2022,
     artist: "The 1975",
     musicPath: "./assets/music/The 1975 - About You.mp3",
   },
-  {
-    backgroundImage: "./assets/images/poster-5.jpg",
-    posterUrl: "./assets/images/poster-5.jpg",
-    title: "Music 5",
-    album: "Unknown",
-    year: 2025,
-    artist: "Unknown",
-    musicPath: "./assets/music/music-5.mp3",
-  },
 ];
-
 
 /**
  * add eventListnere on all elements that are passed
