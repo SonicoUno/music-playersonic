@@ -17,6 +17,15 @@ const musicData = [
     musicPath: "./assets/music/Bandang Lapis performs “Nang Dumating Ka”.mp3",
   },
   {
+  backgroundImage: "./assets/images/poster-6.jpg",
+  posterUrl: "./assets/images/poster-6.jpg",
+  title: "Let Down",
+  album: "OK Computer",
+  year: 1997,
+  artist: "Radiohead",
+  musicPath: "./assets/music/Let Down - Radiohead.mp3",
+},
+  {
     backgroundImage: "./assets/images/poster-2.jpg",
     posterUrl: "./assets/images/poster-2.jpg",
     title: "Stigmatized",
