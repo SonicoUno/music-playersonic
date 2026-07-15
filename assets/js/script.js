@@ -514,7 +514,7 @@ playBtn.addEventListener("click", playMusic);
 
 /** update running time while playing music */
 
-const playerRunningTime = document.querySelector("[data-running-time");
+const playerRunningTime = document.querySelector("[data-running-time]");
 
 const updateRunningTime = function () {
   playerSeekRange.value = audioSource.currentTime;
