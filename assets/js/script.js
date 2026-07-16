@@ -350,6 +350,33 @@ const musicData = [
     artist: "Wolfgang",
     musicPath: "./assets/music/[15] 3 stars and a sun.mp3",
   },
+  {
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Heaven Knows",
+  album: "The OPM Hitmakers Collection",
+  year: 2005,
+  artist: "Orange & Lemons",
+  musicPath: "./assets/music/O&L - Heaven Knows.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-4.jpg",
+  posterUrl: "./assets/images/poster-4.jpg",
+  title: "Teenagers",
+  album: "The Black Parade",
+  year: 2006,
+  artist: "My Chemical Romance",
+  musicPath: "./assets/music/MCR - Teenagers.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-5.jpg",
+  posterUrl: "./assets/images/poster-5.jpg",
+  title: "I Don't Love You",
+  album: "The Black Parade",
+  year: 2006,
+  artist: "My Chemical Romance",
+  musicPath: "./assets/music/MCR- I Don't Love You.mp3",
+},
 ];
 
 /**
