@@ -465,7 +465,7 @@ const musicData = [
   album: "Single",
   year: 2013,
   artist: "Jireh Lim",
-  musicPath: "./assets/music/Buko_(c) Jireh Lim.mp3",
+  musicPath: "./assets/music/BukoJireh Lim.mp3",
 },
 ]; 
 
