@@ -395,14 +395,14 @@ const musicData = [
   artist: "Yano",
   musicPath: "./assets/music/Yano - tsinelas.mp3",
 },
-{
+  {
   backgroundImage: "./assets/images/poster-3.jpg",
   posterUrl: "./assets/images/poster-3.jpg",
   title: "Lutong Bahay",
   album: "Single",
   year: 2007,
   artist: "Parokya ni Edgar",
-  musicPath: "./assets/music/Parokya ni Edgar – Lutong Bahay.mp3",
+  musicPath: "./assets/music/Parokya ni Edgar - Lutong Bahay.mp3",
 },
 {
   backgroundImage: "./assets/images/poster-4.jpg",
@@ -431,7 +431,43 @@ const musicData = [
   artist: "fitterkarma",
   musicPath: "./assets/music/fitterkarma - Kalapastangan.mp3",
 },
-];
+  {
+  backgroundImage: "./assets/images/poster-1.jpg",
+  posterUrl: "./assets/images/poster-1.jpg",
+  title: "679",
+  album: "Fetty Wap",
+  year: 2015,
+  artist: "Fetty Wap ft. Monty",
+  musicPath: "./assets/music/Fetty Wap & Monty 679.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Batman",
+  album: "Single",
+  year: 2022,
+  artist: "LPB Poody",
+  musicPath: "./assets/music/LPB Poody, batman.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Pagsuko",
+  album: "Single",
+  year: 2021,
+  artist: "Jireh Lim",
+  musicPath: "./assets/music/Jireh Lim - Pagsuko.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-4.jpg",
+  posterUrl: "./assets/images/poster-4.jpg",
+  title: "Buko",
+  album: "Single",
+  year: 2013,
+  artist: "Jireh Lim",
+  musicPath: "./assets/music/Buko_(c) Jireh Lim.mp3",
+},
+]; 
 
 /**
  * add eventListnere on all elements that are passed
