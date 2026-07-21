@@ -429,7 +429,7 @@ const musicData = [
   album: "Single",
   year: 2020,
   artist: "fitterkarma",
-  musicPath: "./assets/music/fitterkarma - Kalapastanganan.mp3",
+  musicPath: "./assets/music/fitterkarma - Kalapastangan.mp3",
 },
 ];
 
