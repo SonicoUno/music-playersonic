@@ -467,6 +467,33 @@ const musicData = [
   artist: "Jireh Lim",
   musicPath: "./assets/music/Buko-Jireh Lim.mp3",
 },
+  {
+  backgroundImage: "./assets/images/poster-1.jpg",
+  posterUrl: "./assets/images/poster-1.jpg",
+  title: "Heat Waves",
+  album: "Single",
+  year: 2020,
+  artist: "Lime",
+  musicPath: "./assets/music/HeatWave-Lime.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Buster",
+  album: "Single",
+  year: 2022,
+  artist: "Satori",
+  musicPath: "./assets/music/Buster-Satori.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Boom",
+  album: "Single",
+  year: 2024,
+  artist: "Tiësto",
+  musicPath: "./assets/music/Boom-Tiesto.mp3",
+},
 ]; 
 
 /**
