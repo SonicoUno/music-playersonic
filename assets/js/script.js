@@ -494,6 +494,24 @@ const musicData = [
   artist: "Tiësto",
   musicPath: "./assets/music/Boom-Tiesto.mp3",
 },
+  {
+  backgroundImage: "./assets/images/poster-1.jpg",
+  posterUrl: "./assets/images/poster-1.jpg",
+  title: "If",
+  album: "Manna",
+  year: 1971,
+  artist: "Bread",
+  musicPath: "./assets/music/Bread - If.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Aubrey",
+  album: "Guitar Man",
+  year: 1972,
+  artist: "Bread",
+  musicPath: "./assets/music/Bread - Aubrey.mp3",
+},
 ]; 
 
 /**
