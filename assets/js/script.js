@@ -512,6 +512,15 @@ const musicData = [
   artist: "Bread",
   musicPath: "./assets/music/Bread - Aubrey.mp3",
 },
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "If",
+  album: "Single",
+  year: 2024,
+  artist: "RiverSoul",
+  musicPath: "./assets/music/If - RiverSoul.mp3",
+},
 ]; 
 
 /**
