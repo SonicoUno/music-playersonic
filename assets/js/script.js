@@ -521,6 +521,33 @@ const musicData = [
   artist: "RiverSoul",
   musicPath: "./assets/music/If - RiverSoul.mp3",
 },
+  {
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Wonderwall",
+  album: "(What's the Story) Morning Glory?",
+  year: 1995,
+  artist: "Oasis",
+  musicPath: "./assets/music/Oasis - Wonderwall.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Stand By Me",
+  album: "Be Here Now",
+  year: 1997,
+  artist: "Oasis",
+  musicPath: "./assets/music/Oasis - Stand By Me.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-4.jpg",
+  posterUrl: "./assets/images/poster-4.jpg",
+  title: "Champagne Supernova",
+  album: "(What's the Story) Morning Glory?",
+  year: 1995,
+  artist: "Oasis",
+  musicPath: "./assets/music/Oasis - Champagne Supernova.mp3",
+},
 ]; 
 
 /**
