@@ -548,6 +548,15 @@ const musicData = [
   artist: "Oasis",
   musicPath: "./assets/music/Oasis - Champagne Supernova.mp3",
 },
+{
+  backgroundImage: "./assets/images/poster-5.jpg",
+  posterUrl: "./assets/images/poster-5.jpg",
+  title: "Greatest Love of All",
+  album: "Whitney Houston",
+  year: 1985,
+  artist: "Whitney Houston",
+  musicPath: "./assets/music/Whitney Greatest Love Of All.mp3",
+},
 ]; 
 
 /**
