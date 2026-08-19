@@ -549,6 +549,15 @@ const musicData = [
   musicPath: "./assets/music/Oasis - Champagne Supernova.mp3",
 },
 {
+  backgroundImage: "./assets/images/poster-4.jpg",
+  posterUrl: "./assets/images/poster-4.jpg",
+  title: "Stop Crying Your Heart Out",
+  album: "Heathen Chemistry",
+  year: 2002,
+  artist: "Oasis",
+  musicPath: "./assets/music/Stop Crying Your Heart Out.mp3",
+},
+{
   backgroundImage: "./assets/images/poster-5.jpg",
   posterUrl: "./assets/images/poster-5.jpg",
   title: "Greatest Love of All",
