@@ -557,6 +557,33 @@ const musicData = [
   artist: "Whitney Houston",
   musicPath: "./assets/music/Whitney Greatest Love Of All.mp3",
 },
+{
+  backgroundImage: "./assets/images/poster-1.jpg",
+  posterUrl: "./assets/images/poster-1.jpg",
+  title: "Agent Orange",
+  album: "Agent Orange",
+  year: 1989,
+  artist: "Sodom",
+  musicPath: "./assets/music/Agent Orange.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Cool Off",
+  album: "Sessionroad",
+  year: 2011,
+  artist: "Session Road",
+  musicPath: "./assets/music/Cool Off.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Rollin'",
+  album: "Chocolate Starfish and the Hot Dog Flavored Water",
+  year: 2000,
+  artist: "Limp Bizkit",
+  musicPath: "./assets/music/Limp Bizkit - Rollin.mp3",
+},
 ]; 
 
 /**
