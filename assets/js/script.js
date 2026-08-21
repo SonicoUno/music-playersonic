@@ -696,23 +696,82 @@ addEventOnElements(playlistTogglers, "click", togglePlaylist);
  * and add active state in clicked music
  */
 
+/**
+ * PLAYLIST ITEM
+ *
+ * change active state when a song is selected
+ */
+
 const playlistItems = document.querySelectorAll("[data-playlist-item]");
 
 let currentMusic = 0;
 let lastPlayedMusic = 0;
 
+// Create audio player
+const audioPlayer = new Audio();
+
 const changePlaylistItem = function () {
   playlistItems[lastPlayedMusic].classList.remove("playing");
   playlistItems[currentMusic].classList.add("playing");
-}
+};
+
+
+/**
+ * PLAY MUSIC
+ */
+
+const playMusic = function () {
+  audioPlayer.src = musicData[currentMusic].musicPath;
+
+  audioPlayer.load();
+
+  audioPlayer.play().catch(error => {
+    console.log("Playback blocked:", error);
+  });
+
+  changePlaylistItem();
+};
+
+
+/**
+ * CLICK PLAYLIST SONG
+ */
 
 addEventOnElements(playlistItems, "click", function () {
+
   lastPlayedMusic = currentMusic;
+
   currentMusic = Number(this.dataset.playlistItem);
-  changePlaylistItem();
+
+  playMusic();
+
 });
 
 
+/**
+ * AUTOMATICALLY PLAY NEXT SONG
+ */
+
+audioPlayer.addEventListener("ended", function () {
+
+  // Remove current playing state
+  playlistItems[currentMusic].classList.remove("playing");
+
+  // Move to next song
+  currentMusic++;
+
+  // If we're at the end, go back to the first song
+  if (currentMusic >= musicData.length) {
+    currentMusic = 0;
+  }
+
+  // Update last played
+  lastPlayedMusic = currentMusic;
+
+  // Play next song
+  playMusic();
+
+});
 
 /**
  * PLAYER
