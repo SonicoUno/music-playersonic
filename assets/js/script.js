@@ -593,6 +593,42 @@ const musicData = [
   artist: "Limp Bizkit",
   musicPath: "./assets/music/Limp Bizkit - Rollin.mp3",
 },
+{
+  backgroundImage: "./assets/images/poster-1.jpg",
+  posterUrl: "./assets/images/poster-1.jpg",
+  title: "Welcome to the Jungle",
+  album: "Appetite for Destruction",
+  year: 1987,
+  artist: "Guns N' Roses",
+  musicPath: "./assets/music/Welcome To The Jungle.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-2.jpg",
+  posterUrl: "./assets/images/poster-2.jpg",
+  title: "Sweet Child O' Mine",
+  album: "Appetite for Destruction",
+  year: 1987,
+  artist: "Guns N' Roses",
+  musicPath: "./assets/music/Sweet Child O Mine.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-3.jpg",
+  posterUrl: "./assets/images/poster-3.jpg",
+  title: "Tsinelas",
+  album: "Single",
+  year: 2000,
+  artist: "Enchi Band",
+  musicPath: "./assets/music/Tsinelas by Enchi band.mp3",
+},
+{
+  backgroundImage: "./assets/images/poster-4.jpg",
+  posterUrl: "./assets/images/poster-4.jpg",
+  title: "I'll Never Go",
+  album: "Single",
+  year: 2005,
+  artist: "Nexxus",
+  musicPath: "./assets/music/Nexxus I'll Never Go.mp3",
+},
 ]; 
 
 /**
